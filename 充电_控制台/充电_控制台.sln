@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "充电_控制台", "充电_控制台\充电_控制台.vcxproj", "{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{F4ECBBDD-190A-47C3-94B5-7F9AA37B0203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}.Debug|x64.ActiveCfg = Debug|x64
+		{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}.Debug|x64.Build.0 = Debug|x64
+		{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}.Debug|x86.ActiveCfg = Debug|Win32
+		{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}.Debug|x86.Build.0 = Debug|Win32
+		{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}.Release|x64.ActiveCfg = Release|x64
+		{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}.Release|x64.Build.0 = Release|x64
+		{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}.Release|x86.ActiveCfg = Release|Win32
+		{B2B8CAFD-A2C9-4356-AE7F-52F0DC691884}.Release|x86.Build.0 = Release|Win32
+		{F4ECBBDD-190A-47C3-94B5-7F9AA37B0203}.Debug|x64.ActiveCfg = Debug
+		{F4ECBBDD-190A-47C3-94B5-7F9AA37B0203}.Debug|x86.ActiveCfg = Debug
+		{F4ECBBDD-190A-47C3-94B5-7F9AA37B0203}.Release|x64.ActiveCfg = Release
+		{F4ECBBDD-190A-47C3-94B5-7F9AA37B0203}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC16CC11-29F0-4C84-ABBC-0C15EEBDE089}
+	EndGlobalSection
+EndGlobal
