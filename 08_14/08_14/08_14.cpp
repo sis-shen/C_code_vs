@@ -108,20 +108,22 @@ void test1()
 
 }
 
-int cmp_stu_by_name(const void* e1,const void* e2)
-{
-	return strcmp(((struct Stu*)e1)->name, (((struct Stu*)e2)->name));
-}
-
 struct Stu
 {
 	char name[20];
 	int age;
 };
 
+int cmp_stu_by_name(const void* e1,const void* e2)
+{
+	return strcmp(((struct Stu*)e1)->name , ((struct Stu*)e2)->name);
+}
+
+
+
 void test2()
 {
-	struct Stu s[] = { {"张三",15},{"李四",32},{"王五",99} };
+	struct Stu s[] = { {"zhangsan",15},{"lisi",32},{"wangwu",99} };
 	int sz = sizeof(s) / sizeof(s[0]);
 
 	qsort(s, sz, sizeof(s[0]), cmp_stu_by_name);
@@ -133,6 +135,6 @@ void test2()
 int main()
 {
 	//test1();
-
+	test2();
 	return 0;
 }
