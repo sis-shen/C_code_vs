@@ -6,13 +6,15 @@
 
 void* my_memcpy(void* dest, const void* src, int num)
 {
+	char* s1 = (char*)dest;
+	char* s2 = (char*)src;
 	assert(dest && src);
 	void* ret = dest;
 	while (num--)
 	{
-		*(char*)dest = *(char*)src;
-		dest = (char*)dest + 1;
-		src = (char *)src + 1;
+		*s1 = *s2;
+		s1++;
+		s2++;
 	}
 	return ret;
 
