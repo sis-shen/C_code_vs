@@ -1,0 +1,3 @@
+﻿  08-23.cpp
+D:\20223_07_code\C_code_vs\08-23\08-23\08-23.cpp(77,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  08-23.vcxproj -> D:\20223_07_code\C_code_vs\08-23\x64\Debug\08-23.exe
