@@ -96,11 +96,11 @@
 
 //杨氏矩阵
 
-int find_num(int arr[3][3], int r, int c, int k)
+int find_num(int arr[3][3], int* px, int *py, int k)
 {
 	int x = 0;
-	int y = c - 1; 
-	while (x <= r - 1 && y >= 0)
+	int y = *py - 1; 
+	while (x <= *px - 1 && y >= 0)
 	{
 
 		if (k < arr[x][y])
@@ -113,6 +113,8 @@ int find_num(int arr[3][3], int r, int c, int k)
 		}
 		else
 		{
+			*px = x;
+			*py = y;
 			return 1;//找到了
 		}
 	}
@@ -125,7 +127,17 @@ int main()
 	int arr[3][3] = { 1,2,3,4,5,6,7,8,9 };
 	int k = 0;
 	scanf("%d", &k);
-	int ret = find_num(arr,3, 3, k);
+	int x = 3;
+	int y = 3;
+	int ret = find_num(arr,&x, &y, k);
+	if (ret)
+	{
+		printf("找到了\n");
+		printf("%d %d", x, y);
+	}
+	else {
+		printf("找不到\n");
+	}
 
 	return 0;
 }
