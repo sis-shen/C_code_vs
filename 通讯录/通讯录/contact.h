@@ -2,6 +2,7 @@
 #include <memory.h>
 #include <assert.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define Max 100 //通讯录最大人数
 #define Max_Name 20 //名字长度最大值
@@ -40,3 +41,12 @@ void showContact(const Contact* pc);
 
 //删除指定通讯录
 void DelContact(Contact* pc);
+
+//查找指定联系人
+void SearchContact(Contact* pc);
+
+//修改指定联系人
+void ModifiContact(Contact* pc);
+
+//排序联系人
+void SortContact(Contact* pc);

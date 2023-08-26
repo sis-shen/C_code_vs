@@ -31,13 +31,16 @@ int main()
 			DelContact(&con);
 			break;
 		case 3:
+			SearchContact(&con);
 			break;
 		case 4:
+			ModifiContact(&con);
 			break;
 		case 5:
 			showContact(&con);
 			break;
 		case 6:
+			SortContact(&con);
 			break;
 		case 0:
 			printf("ÍË³ö\n");
