@@ -27,8 +27,9 @@ typedef struct PeoInfo
 
 typedef struct Contact
 {
-	PeoInfo data[100];
+	PeoInfo data;//记录存放的联系人信息
 	int count;
+	int capacity; //记录通讯录的容量
 }Contact;
 
 //初始化通讯录

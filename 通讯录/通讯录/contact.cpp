@@ -3,11 +3,20 @@
 #include "contact.h"
 
 //初始化通讯录
+//1.静态版本
+//void InitContact(Contact* pc)
+//{
+//	pc->count = 0;
+//	memset(pc->data, 0, sizeof(pc->data));
+//}
 
+//2.动态版本
 void InitContact(Contact* pc)
 {
+	assert(pc);
 	pc->count = 0;
-	memset(pc->data, 0, sizeof(pc->data));
+	pc->data = (PeoInfo*)calloc(3 * sizeof(PeoInfo));
+
 }
 
 //增加联系人
