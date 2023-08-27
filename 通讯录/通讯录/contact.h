@@ -4,6 +4,10 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+#define DEFAULT_SIZE 3
+#define INC_SIZE 2
+
 #define Max 100 //通讯录最大人数
 #define Max_Name 20 //名字长度最大值
 #define Max_Sex 10 //性别最大长度
@@ -27,13 +31,15 @@ typedef struct PeoInfo
 
 typedef struct Contact
 {
-	PeoInfo data;//记录存放的联系人信息
+	PeoInfo* data;//记录存放的联系人信息
 	int count;
 	int capacity; //记录通讯录的容量
 }Contact;
 
 //初始化通讯录
 void InitContact(Contact* pc);
+//销毁通讯录
+void DestroyContact(Contact* pc);
 //增加联系人
 void AddContact(Contact *pc);
 
