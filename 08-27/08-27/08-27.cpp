@@ -26,7 +26,7 @@ void GetMemory(char* p)
 	p = (char*)malloc(100);
 }
 
-void test()
+void Test()
 {
 	char* str = NULL;
 	GetMemory(str);
@@ -36,6 +36,6 @@ void test()
 
 int main()
 {
-	test();
+	Test();
 	return 0;
 }
