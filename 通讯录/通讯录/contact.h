@@ -57,3 +57,6 @@ void ModifiContact(Contact* pc);
 
 //排序联系人
 void SortContact(Contact* pc);
+
+//保存通讯录信息
+void SaveContact(const Contact* pc);
