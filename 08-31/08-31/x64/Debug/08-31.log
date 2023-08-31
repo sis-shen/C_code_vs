@@ -1,0 +1,8 @@
+﻿  08-31.cpp
+D:\20223_07_code\C_code_vs\08-31\08-31\08-31.cpp(116,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\20223_07_code\C_code_vs\08-31\08-31\08-31.cpp(116,9): message : 请考虑在格式字符串中使用“%zd”
+D:\20223_07_code\C_code_vs\08-31\08-31\08-31.cpp(117,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\20223_07_code\C_code_vs\08-31\08-31\08-31.cpp(117,9): message : 请考虑在格式字符串中使用“%zd”
+D:\20223_07_code\C_code_vs\08-31\08-31\08-31.cpp(118,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\20223_07_code\C_code_vs\08-31\08-31\08-31.cpp(118,9): message : 请考虑在格式字符串中使用“%zd”
+  08-31.vcxproj -> D:\20223_07_code\C_code_vs\08-31\x64\Debug\08-31.exe
